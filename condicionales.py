@@ -4,8 +4,10 @@ Es una wexpresión que al ser evaluado da coo resultado verdadero o falso por lo
 deben haber operadores relacionales o logicos
 '''
 #ejemplo de condicional
-x=5
-y=10
-z=5
-resultado=(x==z+(8/z))and not ((y+3)*(4/(z+1)))==z
+a=6
+b=3
+c=7
+d=4
+e=5
+resultado=not (a+b>c/d) or e * 2!=d + c and not(a<b)
 print(resultado)
